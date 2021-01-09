@@ -5,6 +5,7 @@
 }
 body{
 	font-family: 'Poppins', sans-serif;
+	background: #d6d6c2;
 }
 .navbar{
 	display: flex;
@@ -294,18 +295,23 @@ select:focus{
 }
 .page-btn span{
 display: inline-block;
-border:1px solid #ff523b;
+/*border:.3px solid #ff523b;*/
 margin-left: 10px;
 width: 40px;
 height: 40px;
 text-align: center;
 line-height: 40px;
 cursor: pointer;
+box-shadow:  10px 10px 10px -1px rgba(0,0,0,0.15),
+	            -6px -6px 10px -1px rgba(255,255,255,0.7);
+	border-radius: 20px;
 }
 
 .page-btn span:hover{
 	background: #ff523b;
 	color: #fff;
+	box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+	                inset -4px -4px 6px -1px rgba(255,255,255,0.7);
 }
 
 
