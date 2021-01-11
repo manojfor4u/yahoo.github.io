@@ -5,8 +5,8 @@
 }
 body{
 	font-family: 'Poppins', sans-serif;
-	background: #d6d6c2;
-}
+	/*background: #d6d6c2;
+*/}
 .navbar{
 	display: flex;
 	align-items: center;
